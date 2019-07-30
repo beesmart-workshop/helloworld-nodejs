@@ -1,7 +1,7 @@
 pipeline {
   agent none
   stages {
-    stage('say hello') {
+    stage('Test') {
       agent { label 'nodejs-app' }
       steps {
         container('nodejs') {
